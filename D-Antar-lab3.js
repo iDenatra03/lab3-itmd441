@@ -3,6 +3,7 @@
 
 //Excersise 1
 
+console.log("\nExercise #1: Min, Max, Average of an array");
 function minMaxAverage(numbers) {
     var totalNumbers = numbers.length;
     var minValue = numbers[0];
@@ -32,6 +33,7 @@ minMaxAverage([23, 6, 4, 15, 55, 32, 12, 1]);
 
 //Excersise 2
 
+console.log("\nExercise #2: Counting Vowels");
 function countVowels(word) {
     var vowels = ['a', 'e', 'i', 'o', 'u'];
     var count = 0;
@@ -61,6 +63,7 @@ countVowels("Technology");
 
 //Excersise 3
 
+console.log("\nExercise #3: Sorting Numbers");
 function sortNumbers(numbers) {
     var sorted = numbers.slice().sort(function(a, b) {
         return a - b;
@@ -80,6 +83,7 @@ sortNumbers([12, 5, 2, 16]);
 
 //Excersise 4
 
+console.log("\nExercise #4: C to F");
 function celsiusToFahrenheit(celsius) {
     var fahrenheit = (celsius * 9 / 5) + 32;
     console.log(celsius.toFixed(1) + " Celsius = " + fahrenheit.toFixed(1) + " Fahrenheit");
