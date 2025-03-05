@@ -42,4 +42,15 @@ function countVowels(word) {
             count++;
         }
     }
+
+    console.log(word + ": " + count + " vowels");
 }
+
+//Test case 1
+countVowels("Denatra");
+
+//Test case 2
+countVowels("Football");
+
+//Test case 3
+countVowels("Technology");
