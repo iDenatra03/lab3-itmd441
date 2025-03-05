@@ -78,3 +78,10 @@ sortNumbers([19, 33, 3, 1]);
 //Test case 3
 sortNumbers([12, 5, 2, 16]);
 
+//Excersise 4
+
+function celsiusToFahrenheit(celsius) {
+    var fahrenheit = (celsius * 9 / 5) + 32;
+    console.log(celsius.toFixed(1) + " Celsius = " + fahrenheit.toFixed(1) + " Fahrenheit");
+}
+
