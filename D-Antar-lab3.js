@@ -15,8 +15,17 @@ function minMaxAverage(numbers) {
         if (num > maxValue) maxValue = num;
         sum = sum + num;
     }
-    
+
     var average = sum / totalNumbers;
 
     console.log("Total Numbers: " + totalNumbers + ", Min Value: " + minValue + ", Max Value: " + maxValue + ", Average: " + average);
 }
+
+//Test case 1
+minMaxAverage([2, 5, 23, 6, 9, 4, 30, 1]);
+
+//Test case 2
+minMaxAverage([4, 2, 16, 14, 3, 24, 40, 17]);
+
+//Test case 3
+minMaxAverage([23, 6, 4, 15, 55, 32, 12, 1]);
