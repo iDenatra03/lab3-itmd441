@@ -50,7 +50,7 @@ function countVowels(word) {
 countVowels("Denatra");
 
 //Test case 2
-countVowels("Football");
+countVowels("Watch");
 
 //Test case 3
 countVowels("Technology");
