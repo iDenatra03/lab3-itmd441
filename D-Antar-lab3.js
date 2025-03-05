@@ -58,3 +58,11 @@ countVowels("Watch");
 
 //Test case 3
 countVowels("Technology");
+
+//Excersise 3
+
+function sortNumbers(numbers) {
+    var sorted = numbers.slice().sort(function(a, b) {
+        return a - b;
+    });
+}
