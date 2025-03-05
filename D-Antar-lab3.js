@@ -65,4 +65,16 @@ function sortNumbers(numbers) {
     var sorted = numbers.slice().sort(function(a, b) {
         return a - b;
     });
+
+    console.log("Original Array: [" + numbers.join(", ") + "] output Sorted Array: [" + sorted.join(", ") + "]");
 }
+
+//Test case 1
+sortNumbers([3, 4, 7, 16]);
+
+//Test case 2
+sortNumbers([19, 33, 3, 1]);
+
+//Test case 3
+sortNumbers([12, 5, 2, 16]);
+
