@@ -85,3 +85,12 @@ function celsiusToFahrenheit(celsius) {
     console.log(celsius.toFixed(1) + " Celsius = " + fahrenheit.toFixed(1) + " Fahrenheit");
 }
 
+//Test case 1
+celsiusToFahrenheit(0); 
+
+//Test case 2
+celsiusToFahrenheit(23.5); 
+
+//Test case 3
+celsiusToFahrenheit(4); 
+
