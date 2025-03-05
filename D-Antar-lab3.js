@@ -8,4 +8,11 @@ function minMaxAverage(numbers) {
     var minValue = numbers[0];
     var maxValue = numbers[0];
     var sum = 0;
+
+    for (var i = 0; i < numbers.length; i++) {
+        var num = numbers[i];
+        if (num < minValue) minValue = num;
+        if (num > maxValue) maxValue = num;
+        sum = sum + num;
+    }
 }
