@@ -29,3 +29,17 @@ minMaxAverage([4, 2, 16, 14, 3, 24, 40, 17]);
 
 //Test case 3
 minMaxAverage([23, 6, 4, 15, 55, 32, 12, 1]);
+
+//Excersise 2
+
+function countVowels(word) {
+    var vowels = ['a', 'e', 'i', 'o', 'u'];
+    var count = 0;
+    var lowerWord = word.toLowerCase();
+
+    for (var i = 0; i < lowerWord.length; i++) {
+        if (vowels.indexOf(lowerWord[i]) !== -1) {
+            count++;
+        }
+    }
+}
