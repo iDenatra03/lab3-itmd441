@@ -15,4 +15,8 @@ function minMaxAverage(numbers) {
         if (num > maxValue) maxValue = num;
         sum = sum + num;
     }
+    
+    var average = sum / totalNumbers;
+
+    console.log("Total Numbers: " + totalNumbers + ", Min Value: " + minValue + ", Max Value: " + maxValue + ", Average: " + average);
 }
