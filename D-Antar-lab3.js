@@ -70,7 +70,7 @@ function sortNumbers(numbers) {
 }
 
 //Test case 1
-sortNumbers([3, 4, 7, 16]);
+sortNumbers([3, 16, 7, 12]);
 
 //Test case 2
 sortNumbers([19, 33, 3, 1]);
