@@ -43,7 +43,11 @@ function countVowels(word) {
         }
     }
 
-    console.log(word + ": " + count + " vowels");
+    if (count === 1) {
+        console.log(word + ": " + count + " vowel");
+    } else {
+        console.log(word + ": " + count + " vowels");
+    }
 }
 
 //Test case 1
